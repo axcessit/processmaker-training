@@ -1,4 +1,4 @@
-!-- REST Connection Start -->
+<!-- REST Connection Start -->
 <?php
  
   session_start();
