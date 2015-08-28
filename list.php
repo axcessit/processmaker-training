@@ -27,6 +27,9 @@
                 <th>Status</th>
                 <th></th></tr></thead>
                 <?php
+                echo $case_list;
+                ?>
+                <!--?php
                     $i = 0;
                     foreach($case_list as $case){
                     $i++;
@@ -39,7 +42,7 @@
                         <td>".$case['app_status']."</td>
                         <td><a href='dynaform.php?proj=".$case['pro_uid']."&task=".$case['tas_uid']."&app=".$case['app_uid']."' class='btn btn-default btn-xs'>Open</a></td></tr>";
                     }
-                ?>
+                ?-->
              </table>
         </div>
 <!-- Page Content End-->
